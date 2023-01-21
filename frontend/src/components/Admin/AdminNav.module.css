@@ -1,0 +1,21 @@
+.nav {
+  background-color: #1a73e8;
+  width: 60%;
+  margin: 0 auto;
+}
+.navList {
+  list-style: none;
+  padding: 1rem 20%;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.navList a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.navList a:hover {
+  text-decoration: underline;
+}

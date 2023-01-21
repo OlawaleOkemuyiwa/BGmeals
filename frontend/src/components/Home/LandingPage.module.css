@@ -1,0 +1,63 @@
+.landingPage {
+  font-size: 1.6rem;
+  min-height: 100vh;
+  position: relative;
+  color: white;
+
+  background-image: linear-gradient(to right bottom, #00000080, #00000080),
+    url("../../assets/background.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.headingBox {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.headingBox a {
+  color: #252424;
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+  font: inherit;
+  padding: 1.3rem 3.5rem;
+  cursor: pointer;
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 3rem;
+  transition: transform 0.2s;
+}
+
+@media only screen and (max-width: 31.25em) {
+  .headingBox a {
+    padding: 0.8rem 2rem;
+    border-radius: 1.5rem;
+  }
+}
+
+.headingBox a:hover {
+  transform: translateY(-3px);
+}
+
+.primaryHeading {
+  font-size: 4rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 4rem;
+  letter-spacing: 3px;
+}
+
+@media only screen and (max-width: 31.25em) {
+  .primaryHeading {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+}
+
+.primaryHeading span {
+  display: block;
+}

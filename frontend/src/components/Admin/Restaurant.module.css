@@ -1,0 +1,36 @@
+.restaurant {
+  margin: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box {
+  text-align: center;
+}
+
+.box button {
+  padding: 0.5rem 1rem;
+}
+
+.restaurant .id {
+  flex: 0 0 25%;
+  text-align: center;
+}
+
+.restaurant .name {
+  flex: 0 0 15%;
+  text-align: center;
+}
+
+.restaurant button:nth-of-type(1) {
+  flex: 0 0 15%;
+}
+
+.restaurant button:nth-of-type(2) {
+  flex: 0 0 15%;
+}
+
+.restaurant button:nth-of-type(3) {
+  flex: 0 0 15%;
+}

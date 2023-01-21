@@ -1,0 +1,34 @@
+.foodItem header {
+  margin-bottom: 1.5rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.price {
+  font-size: 2rem;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.actions button {
+  font: inherit;
+  border: 1px solid #313131;
+  color: #313131;
+  padding: 0.4rem 1.3rem;
+  background-color: transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.1s;
+}
+
+.actions button:hover,
+.actions button:active {
+  color: white;
+  background-color: #373434;
+  border-color: #373434;
+}

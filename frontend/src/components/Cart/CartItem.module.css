@@ -1,0 +1,61 @@
+.item {
+  margin: 1.5rem 0;
+  background-color: #575757;
+  padding: 1.5rem;
+}
+
+.item h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 2rem;
+}
+
+.item header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.quantity span {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.price {
+  flex: 0 0 30%;
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-align: right;
+}
+
+.itemprice {
+  font-weight: normal;
+  font-size: 1.4rem;
+  font-style: italic;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0.7rem 0;
+}
+
+.actions button {
+  background-color: transparent;
+  border: 1px solid white;
+  margin-left: 0.5rem;
+  padding: 0.3rem 1rem;
+  color: white;
+  cursor: pointer;
+}
+
+.actions button:hover,
+.actions button:active {
+  background-color: #4b4b4b;
+  color: white;
+}

@@ -1,0 +1,31 @@
+.container {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.container form {
+  width: 25%;
+  margin: 1rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container form input {
+  font: inherit;
+  margin: 0.5rem 0;
+  outline: none;
+}
+
+.container .actBox {
+  text-align: center;
+}
+
+.actBox button {
+  padding: 0.5rem 1rem;
+}
+.restaurantsList {
+  list-style: none;
+  width: 80%;
+  margin: 1rem auto;
+}

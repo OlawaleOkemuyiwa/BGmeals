@@ -1,0 +1,72 @@
+.meals h2 {
+  font-size: 2.7rem;
+  color: #000;
+  margin: 2rem auto;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 31.25em) {
+  .meals h2 {
+    font-size: 2.2rem;
+  }
+}
+
+.filterControl {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 0.8rem;
+}
+
+@media only screen and (max-width: 31.25em) {
+  .filterControl {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 0.8rem;
+  }
+}
+
+.foodList {
+  padding: 1.5rem 0;
+}
+
+.filterControl label {
+  font-weight: bold;
+  font-size: 1.7rem;
+}
+
+.filterControl select {
+  font: inherit;
+  padding: 0.7rem 0.7rem;
+  font-weight: bold;
+  border-radius: 0.4rem;
+  outline: none;
+}
+
+.expenses-filter {
+  color: white;
+  margin: 1rem 0;
+}
+
+.expenses-filter__control {
+  width: 100%;
+  padding: 0 1rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.expenses-filter label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.expenses-filter select {
+  font: inherit;
+  padding: 0.5rem 3rem;
+  font-weight: bold;
+  border-radius: 6px;
+}

@@ -1,0 +1,53 @@
+.cart {
+  color: white;
+  background-color: #313131;
+  margin: 1.2rem auto;
+}
+
+.cart h2 {
+  margin: 0.8rem 0;
+}
+
+.cartActions {
+  text-align: right;
+}
+
+.cartActions button,
+.cartActions a {
+  font: inherit;
+  border: 1px solid #313131;
+  color: #313131;
+  padding: 0.4rem 1.3rem;
+  background-color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.1s;
+}
+
+.cartActions a {
+  margin-right: 1rem;
+  text-decoration: none;
+}
+
+.cartActions a:hover,
+.cartActions a:active {
+  color: white;
+  background-color: #d45252;
+}
+
+.cartActions button:hover,
+.cartActions button:active {
+  color: white;
+  background-color: #51e00f;
+}
+
+.cartActions button:disabled:hover,
+.cartActions button:disabled:active {
+  background-color: #ccc;
+  color: #313131;
+  cursor: not-allowed;
+}
+
+.cart .totalAmount {
+  font-size: 2rem;
+}

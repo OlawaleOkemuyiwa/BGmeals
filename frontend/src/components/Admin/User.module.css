@@ -1,0 +1,26 @@
+.user {
+  margin: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user .id {
+  flex: 0 0 22%;
+  text-align: center;
+}
+
+.user .name {
+  flex: 0 0 28%;
+  text-align: center;
+}
+
+.user .email {
+  flex: 1;
+  text-align: center;
+}
+
+.user button {
+  flex: 0 0 5%;
+  text-align: center;
+}

@@ -1,0 +1,41 @@
+.navBtn {
+  font: inherit;
+  text-decoration: none;
+  padding: 0.8rem 1rem;
+  border-radius: 0.6rem;
+  background-color: transparent;
+  border: 1.6px solid #1a73e8;
+  color: white;
+  transition: all 0.2s;
+}
+
+@media only screen and (max-width: 31.25em) {
+  .navBtn {
+    padding: 0.5rem 0.5rem;
+  }
+}
+
+.navBtn:hover,
+.navBtn:active {
+  background-color: #1a73e8;
+  border-color: #1a73e8;
+  color: white;
+}
+
+.badge {
+  background-color: #1a73e8;
+  border-radius: 5rem;
+  padding: 0.25rem 1.4rem;
+  color: white;
+}
+
+.navBtn:hover .badge,
+.navBtn:active .badge {
+  background-color: white;
+  color: #1d1d1d;
+}
+
+.navBtn span {
+  margin: 0 0.5rem;
+  font-size: 1.4rem;
+}

@@ -1,0 +1,21 @@
+.order {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  /* justify-content: space-between;
+  align-items: center; */
+}
+
+.order .name {
+  flex: 0 0 30%;
+  text-align: center;
+}
+
+.order .summary {
+  flex: 1;
+}
+
+.order .summary {
+  flex: 15%;
+  text-align: center;
+}

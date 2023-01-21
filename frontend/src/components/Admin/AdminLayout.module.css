@@ -1,0 +1,10 @@
+.adminContainer {
+  font-size: 1.6rem;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.adminContainer h1 {
+  font-size: 4rem;
+  text-align: center;
+}

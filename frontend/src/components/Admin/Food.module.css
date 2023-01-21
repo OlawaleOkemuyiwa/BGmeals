@@ -1,0 +1,11 @@
+.food {
+  margin: 0.5rem 0;
+}
+
+.food .name {
+  margin-right: 1rem;
+}
+
+.food .price {
+  margin-right: 1rem;
+}
